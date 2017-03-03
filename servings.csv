@@ -1,4 +1,4 @@
-"ID","Index Name","Serving Name","Serving Size"
+"id","food","name","quantity"
 1,"apple-juice","glass",250
 2,"barley-wrap","wrap",45
 3,"beer-cheekyblonde","bottle",330

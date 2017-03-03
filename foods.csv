@@ -1,4 +1,4 @@
-"Brand","Brand Variety","Variety Prefix 1","Variety Prefix 2","Name","Variety Suffix","Details","Category","Index Name","Default Serving","USDA Index","Values by Volume","Kilojoules","Calories","Protein","Fat","Saturated Fat","Carbohydrate","Sugars","Fibre","Sodium"
+"brand","brand_variety","variety_prefix_1","variety_prefix_2","name","variety_suffix","details","category","index_name","default_serving","usda_index","measured_by_volume","kilojoules","calories","protein","fat","saturated_fat","carbohydrate","sugars","fibre","sodium"
 ,,,,"almonds",,,"nuts and seeds","almonds",,12061,0,2529,,20,55.2,3.6,4.4,4.4,12.5,5
 ,,"gala",,"apple",,,"fruit and vegetables","apple-gala",,09503,0,,57,0.25,0.12,0,13.68,10.37,2.3,1
 ,,"granny smith",,"apple",,,"fruit and vegetables","apple-gs",,09502,0,,58,0.44,0.19,0,13.61,9.59,2.8,1
