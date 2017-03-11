@@ -12,11 +12,11 @@
 "Good 4U+U",,,,"bean sprouts",,,"fruit and vegetables","bean-sprouts",,,0,80,,2,0.5,0,1,0,,20
 ,,"lean",,"beef","tenderloin",,"meat","beef",,,0,,139,21.94,5.74,1.96,0,0,0,44
 "Cheeky Blonde",,,,"beer",,,"drinks","beer-cheekyblonde",3,,0,129.09,,0.36,0.03,0.03,1.3,0.1,0,2.73
-"Cooper’s","Clear",,,"beer",,,"drinks","beer-coopers",4,,0,130.14,,0.03,0.03,0.03,0.99,0.1,0,7.04
+"Cooper's","Clear",,,"beer",,,"drinks","beer-coopers",4,,0,130.14,,0.03,0.03,0.03,0.99,0.1,0,7.04
 "James Squire","150 Lashes",,,"beer",,,"drinks","beer-james-150",5,,0,152.75,,0.49,0.03,0.03,2.61,0.09,0.41,2.9
 "Harris Farm",,"bocconcini",,"cheese",,,"dairy","bocconcini",,,0,890,,18.6,15,11.9,0.9,0.7,0,148
 ,,"barley",,"bran",,,"grains","barley-bran",,,0,1350,,12,4.1,1,61.2,5.8,18.4,7
-"Bill’s ","7 Seeds Multigrain","multigrain",,"bread",,,"grains","bread-bills-7",,,0,1040,,8.8,5.8,0.7,37.5,0.3,5.5,242
+"Bill's ","7 Seeds Multigrain","multigrain",,"bread",,,"grains","bread-bills-7",,,0,1040,,8.8,5.8,0.7,37.5,0.3,5.5,242
 "Schwob's","Multigrain","multigrain",,"bread",,,"grains","bread-sch",,,0,966,,10.4,1.8,0.5,39.6,3.9,,620
 "Motherstone ","Multigrain Sourdough","multigrain","sourdough","bread",,,"grains","bread-ms-multi",,,0,1067,,9.1,1.6,0.3,48.2,2.6,4,518
 "Bowan Island","Quinoa and Seeds","multigrain","seeded","bread",,,"grains","bread-bowan-quinoa",,,0,988,,9,3.3,0.4,39.5,0.7,,481
@@ -59,9 +59,9 @@
 "Coles","Dark Belgian","dark",,"chocolate",,"85% cocoa",,"choc-coles",12,,0,2240,,10.1,48.4,30.3,16.2,11.2,16.4,9
 "Pico Organic","Super Dark","dark",,"chocolate",,,,"choc-pico",,,0,2520,,10,52,32,19,12,,20
 "Black Gold",,,,"cocoa powder",,,,"cocoa",,,0,1789,,26.8,11.1,7.1,54,0.5,,5
-"Arnott’s","Vitawheat (9 Grains)","multigrain",,"cracker",,,"wheat and grains","vitawheat",13,,0,1710,,12.2,9.4,1.1,62.3,1.8,12,452
-"Arnott’s","Vitawheat (Cracked Pepper)",,,"cracker",,,"grains","vitawheat-pepper",14,,0,1640,,11.1,8.3,1.2,62.2,1.8,11.1,420
-"Brancourt’s ","So Light So Spreadable","low fat","cream","cheese",,,"dairy","cheese-cream",,,0,380,,11.4,2.5,1.6,4.5,4.1,0,350
+"Arnott's","Vitawheat (9 Grains)","multigrain",,"cracker",,,"wheat and grains","vitawheat",13,,0,1710,,12.2,9.4,1.1,62.3,1.8,12,452
+"Arnott's","Vitawheat (Cracked Pepper)",,,"cracker",,,"grains","vitawheat-pepper",14,,0,1640,,11.1,8.3,1.2,62.2,1.8,11.1,420
+"Brancourt's ","So Light So Spreadable","low fat","cream","cheese",,,"dairy","cheese-cream",,,0,380,,11.4,2.5,1.6,4.5,4.1,0,350
 "Ryvita","Multigrain Rye","multigrain","rye","crispbread",,,"grains","ryvita",15,,0,1550,,11.2,7.2,1.3,56,4.9,18.3,240
 "Nabisco","Premium (98% fat free)","low fat",,"cracker",,,"grains","premium",37,,0,1570,,10,1.5,1,75.5,1,0,394
 "Golden",,,,"crumpet",,,"grains","crumpet",,,0,750,,5.7,0.9,0.2,35.5,2,1.4,600
@@ -98,20 +98,20 @@
 "Dairy Farmers","Skim","skim",,"milk",,,"dairy","milk-skim",23,,1,147,,3.6,0.1,0.1,4.9,4.9,0,45
 "Harris Farm","Single herd","full cream",,"milk",,,"dairy","milk-hf",24,,1,277,,3.3,3.8,2.5,4.7,4.7,0,45
 "Harris Farm","Farmer Friendly lite","low fat",,"milk",,,"dairy","milk-ff",36,,1,191,,3.4,1.3,0.9,4.9,4.9,0,43
-"Paul’s","Zymil low fat","low fat","lactose free","milk",,,"dairy","milk-zymil",25,,1,189,,3.4,1.3,0.8,4.9,4.9,0,40
+"Paul's","Zymil low fat","low fat","lactose free","milk",,,"dairy","milk-zymil",25,,1,189,,3.4,1.3,0.8,4.9,4.9,0,40
 "Good 4U+U","Crunchy Combo",,,"mixed sprouts",,"chickpea, mung, lentil, peas","legumes","crunchy-combo",,,0,,91.33,6.35,1.07,0.11,16.98,2.71,2.7,76.33
 ,,"sprouted",,"mung beans",,,"fruit and vegetables","mung-sprouts",,11043,0,,30,3.04,0.18,0.05,5.94,4.13,1.8,6
 ,,"white",,"mushrooms",,,"fruit and vegetables","mushroom",,,0,,22,3.09,0.34,0.05,3.26,1.98,1,5
 "PGF Premium",,"hot","English","mustard",,,"dips and spreads","mustard-hot",,,0,757,,10.9,13.9,1,3.5,2.7,0,2150
 "Thomy",,"hot","German","mustard",,,"dips and spreads","mustard-thomy",,,0,693,,7.5,13.1,0.9,0.2,0.18,0,205
-"Kühne",,"mild","German","mustard",,,"dips and spreads","mustard-kuhne",,,0,454,,6,6.7,0.3,2.8,1.4,0,1240
+"K?hne",,"mild","German","mustard",,,"dips and spreads","mustard-kuhne",,,0,454,,6,6.7,0.3,2.8,1.4,0,1240
 "Maille","Dijon","Dijon",,"mustard ",,,"dips and spreads","mustard-maille",,,0,620,,7,11,1,3.5,2,0,2300
 ,,,,"nectarine",,,"fruit and vegetables","nectarine",,09191,0,,44,1.06,0.32,0.03,10.55,7.89,1.7,0
-"Mayver’s","Super Spread",,,"nut butter",,"peanut, brazil nut, cashew","dips and spreads","super-spread",,,0,2430,,21,50.6,8.7,20.7,3.7,8.3,10
+"Mayver's","Super Spread",,,"nut butter",,"peanut, brazil nut, cashew","dips and spreads","super-spread",,,0,2430,,21,50.6,8.7,20.7,3.7,8.3,10
 ,,"extra virgin","olive","oil",,,"oils","oliveoil",,,1,3446,,0,91.5,13.8,0,0,0,0
 "Sandhurst",,"pitted","black","olives",,,,"olives-b-p-sh",,,0,520,,0.5,13.6,2.2,0,0,,600
 "Green Valley",,"pitted","black","olives",,,,"olives-b-p-gv",,,0,503,,0.5,13.2,2.2,0.1,0.1,,780
-"Three Three’s",,"stuffed","green","olives",,,,"olives-g-s-33",,,0,499,,1,11.2,2.3,4.3,1,,1340
+"Three Three's",,"stuffed","green","olives",,,,"olives-g-s-33",,,0,499,,1,11.2,2.3,4.3,1,,1340
 "Sandhurst",,"pitted","green","olives",,,,"olives-g-p-sh",,,0,584,,0.9,15.2,2,0,0,,1500
 "Always Fresh","Mediterranean Chilli","stuffed","green","olives",,,,"olives-med-af",,,0,396,,1.2,7.4,1.3,3.6,0.5,,1640
 "Sandhurst",,"stuffed","green","olives",,,,"olives-g-s-sh",,,0,533,,0.7,13.8,3,0,0,,1500
@@ -131,7 +131,7 @@
 ,,"white",,"potato",,"with skin","fruit and vegetables","potato-white",,11354,0,,69,1.68,0.1,0,15.71,1.15,2.4,16
 ,,,,"protein",,,"miscellaneous","protein",,,0,1700,,100,0,0,0,0,0,0
 "Aldi",,,"soy","protein powder",,,"soy products","protein-aldi",,,0,1507,,77.33,2,0.67,4.67,4.67,7.33,1513
-"Nature’s Way",,,"soy","protein powder",,,"soy products","protein-nw",,,0,1610,,87,3.3,1,1,0,,730
+"Nature's Way",,,"soy","protein powder",,,"soy products","protein-nw",,,0,1610,,87,3.3,1,1,0,,730
 "IGA Signature",,,,"psyllium husk",,,"grains","psyllium-husk",,,0,125,,3,0,0,4,0,80,125
 "Van Der Meulen",,,,"pumpernickel",,,"grains","pumpernickel",26,,0,852,,5.6,1.2,0.2,36.8,11.7,10.8,460
 ,,,,"pumpkin",,,"fruit and vegetables","pumpkin",,,0,,26,1,0.1,0.05,6.5,2.76,0.5,1
@@ -148,7 +148,7 @@
 "Safcol",,,,"salmon","in springwater","drained","fish","salmon-safcol",27,,0,305,,14.6,1.3,0.4,0.5,0.5,0,315
 ,,,,"snapper",,,"fish","snapper",,15101,0,,100,20.51,1.34,0.2,0,0,0,64
 "Sanitarium","So Good Lite","low fat",,"soy milk",,,"soy products","milk-soy",28,,1,166,,3.1,0.8,0.1,4.9,2,0,0
-"Australia’s Own","Organic",,,"soy milk",,,"soy products","milk-soy-org",29,,1,124,,1.9,2.4,0.3,0.4,0.4,1,70
+"Australia's Own","Organic",,,"soy milk",,,"soy products","milk-soy-org",29,,1,124,,1.9,2.4,0.3,0.4,0.4,1,70
 "Eco Organics",,"black bean",,"spaghetti",,,"grains","spaghetti-bean",,,0,1344,,45,4,1,30,7.08,21,3.6
 ,,,,"strawberry",,,"fruit and vegetables","strawberry",,09316,0,,32,0.67,0.3,0.02,7.68,4.89,2,1
 ,,,,"sugar",,,"miscellaneous","sugar",,,0,,387,0,0,0,100,100,0,0
@@ -167,7 +167,7 @@
 "Sole Mare",,,,"tuna","in springwater",,"fish","tuna-solemare",33,,0,545.71,,24,1,0.43,0,0,0,240
 "BTO Top Taste",,,,"tzatziki",,,,"tzatziki",,,0,598,,4.8,10.1,3.6,8.4,6.4,,344
 "Flats","Tomato and Basil",,,"vegetable chips",,,,"flats",,,0,1770,,16.4,32.2,2.7,8.4,7.9,45.2,395
-"Mazzetti ","l’originale","balsamic",,"vinegar",,,"condiments","balsamic",,,1,328,,0.3,0,0,15.7,15.7,0,10.8
+"Mazzetti ","l'originale","balsamic",,"vinegar",,,"condiments","balsamic",,,1,328,,0.3,0,0,15.7,15.7,0,10.8
 "The Market Grocer",,,,"walnuts",,,"nuts and seeds","walnuts",,,0,2738,,15.2,66.2,6.1,14,2.6,,2
 "Pandaroo",,,,"wasabi",,,"condiments","wasabi",,,0,1270,,2.5,12.4,2.2,43,15,5.1,2950
 ,,,,"watermelon",,"without skin","fruit and vegetables","watermelon",,09326,0,,30,0.61,0.15,0.02,7.55,6.2,0.4,1
