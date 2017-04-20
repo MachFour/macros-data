@@ -7,7 +7,7 @@
 6,"bread-bg-pks","slice",43
 7,"bread-bg-oats","slice",46
 8,"bread-bg-whole","slice",43
-9,"cheese-bega","slice",17
+9,"bega","slice",17
 10,"choc-lindt-85","square",10
 11,"choc-lindt-90","square",10
 12,"choc-coles","square",10
@@ -24,7 +24,7 @@
 23,"milk-skim","glass",220
 24,"milk-hf","glass",220
 25,"milk-zymil","glass",220
-26,"pumpernickel","slice",50
+26,"pumpernickel-vdm","slice",50
 27,"salmon-safcol","tin",62
 28,"milk-soy","glass",250
 29,"milk-soy-org","glass",250
@@ -36,3 +36,12 @@
 35,"yoghurt-chobani-4","tub",170
 36,"milk-ff","glass",220
 37,"premium","cracker",5.5
+38,"rice-cracker","cracker",2
+39,"pumpernickel","slice",60
+40,"mackerel-ap","tin",100
+41,"strongbow-low-carb","bottle",355
+42,"strongbow-original","bottle",355
+43,"vitawheat-orig","cracker",6
+44,"salmon-jw-wild","tin",75
+45,"salmon-tassal","tin",70
+46,"beer-boags-light","bottle",375
