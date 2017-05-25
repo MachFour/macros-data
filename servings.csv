@@ -17,7 +17,7 @@
 16,"egg","large",60
 17,"egg","medium",50
 18,"mackerel-jw","tin",90
-19,"mackerel-ko","tin",80
+19,"mackerel-ko-brine","tin",80
 20,"mackerel-ko-med","tin",74
 21,"mackerel-ko-oil","tin",74
 22,"milk","glass",220
@@ -45,3 +45,5 @@
 44,"salmon-jw-wild","tin",75
 45,"salmon-tassal","tin",70
 46,"beer-boags-light","bottle",375
+47,"choc-perugina","square",10
+48,"mackerel-ko","tin",80
