@@ -100,7 +100,8 @@
 ,,,,"eggplant",,,"fruit and vegetables","eggplant-usda",0,,25,0.98,0.18,0.03,5.88,3.53,3,2,2.88,11209,
 ,,,,"eggplant",,,"fruit and vegetables","eggplant",0,89,,1,0.3,0,2.4,2.4,2.5,5,2.4,,"13A11407"
 ,,,,"fat",,,"miscellaneous","fat",0,3700,,0,100,0,0,0,0,0,0,,
-"South Cape","Greek Style Reduced Fat","low fat",,"feta",,,"dairy","feta",0,1058,,23.8,17.2,11.2,1,1,,1132,1,,
+"South Cape","Greek Style Reduced Fat","low fat",,"feta",,,"dairy","feta",0,1160,,23.8,19,12.4,1,1,,1250,1,,
+"South Cape","Tasmanian Reduced Fat","low fat",,"feta",,,"dairy","feta-tas",0,850,,17,13.5,8.8,1,1,,993,1,,
 ,,,,"fennel",,,"fruit and vegetables","fennel",0,92,,1,0.1,0,3.3,3.3,1.8,38,3.3,,"13A11538"
 ,,,,"fig",,,"fruit and vegetables","fig",0,,74,0.75,0.3,0.06,19.18,16.26,2.9,1,16.28,09089,
 "Harris Farm",,,,"goji berries",,,"fruit and vegetables","goji",0,1440,,12.3,3.3,1.2,60.3,48.8,10.4,460,60.3,,
@@ -252,6 +253,7 @@
 "Carwari",,"black","unhulled","tahini",,,"dips and spreads","tahini-black",0,2717,,20.4,60.7,7.5,1,0.7,,79,1,,
 "Soyco",,,,"tempeh",,,"soy products","tempeh",0,590,,15,4.7,0.6,9.7,0.6,,5,9.7,,
 "Super Soy",,"firm",,"tofu",,,"soy products","tofu",0,416,,11.3,5,0.8,4.2,0.3,2.2,6,4.2,,
+"Nutrisoy","Spicy Tofu","seasoned",,"tofu",,,"soy products","tofu-spicy",0,730,,18,9.5,1.2,4.5,0.7,1.4,290,4.5,,
 ,,,,"tomato",,,"fruit and vegetables","tomato-usda",0,,18,0.9,0.2,0,3.9,2.6,1.2,5,3.9,,
 ,,,,"tomato",,,"fruit and vegetables","tomato",0,74,,1,0.1,0,2.4,2.3,1.2,8,2.4,,
 ,,"farmed","rainbow","trout",,"dry cooked","fish","trout",0,,168,23.8,7.38,1.65,0,0,0,61,0,15241,
