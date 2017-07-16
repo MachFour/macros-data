@@ -1,4 +1,4 @@
-brand,brand_variety,variety_prefix_1,variety_prefix_2,name,variety_suffix,details,category,index_name,measured_by_volume,kilojoules,calories,protein,fat,saturated_fat,carbohydrate,sugars,fibre,sodium,carbohydrate_diff,usda_index,nuttab_index
+brand,commercial_name,variety_prefix_1,variety_prefix_2,name,variety_suffix,details,category,index_name,measured_by_volume,kilojoules,calories,protein,fat,saturated_fat,carbohydrate,sugars,fibre,sodium,carbohydrate_diff,usda_index,nuttab_index
 ,,,,almonds,,,nuts and seeds,almonds-usda,0,,579,21.25,49.93,3.8,9.05,4.35,12.5,1,21.55,12061,
 The Market Grocer,,,,almonds,,,nuts and seeds,almonds-tmg,0,2529,,20,55.2,3.6,4.4,4.4,12.5,5,,,
 ,,,,almonds,,,nuts and seeds,almonds,0,2503,,19.5,54.7,3.7,4.8,4.8,8.8,5,,,
