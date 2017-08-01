@@ -1,4 +1,4 @@
-food,name,quantity,is_default
+food_id,name,quantity,is_default
 almonds,almond,1.5,1
 apple-juice,glass,250,1
 barley-wrap,wrap,45,1
@@ -37,7 +37,7 @@ milk-zymil,glass,220,1
 premium,cracker,5.5,1
 pumpernickel,slice,60,1
 pumpernickel-vdm,slice,50,1
-rice-cracker,cracker,2,1
+rice-cracker-deli,cracker,2,1
 roggen-brot,slice,50,1
 ryvita,slice,11,1
 salmon-jw-wild,tin,75,1
@@ -56,3 +56,5 @@ vitawheat-pepper,cracker,6,1
 waferthins,cracker,1.67,1
 yoghurt-chobani,tub,170,1
 yoghurt-chobani-4,tub,170,1
+rice-cracker,cracker,7,1
+rice-cracker-q,cracker,7,1
