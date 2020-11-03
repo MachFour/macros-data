@@ -1,13 +1,13 @@
 recipe_index_name,ingredient_index_name,quantity,quantity_unit,notes
-chilli-sauce-max,chilli,145,g,Bird's eye chillies
+chilli-sauce-max,chilli,145,g,"Bird's eye chillies"
 chilli-sauce-max,chilli,40,g,"habanero (about 4), for extra heat if desired"
 chilli-sauce-max,olive-oil-cobram,28,g,
 chilli-sauce-max,vinegar,40,g,
 chilli-sauce-max,msg,0.3,g,
 ,,,,
-chickpea-bread,chickpea-flour,250,ml,1 cup
-chickpea-bread,water,250,ml,1 cup
-chickpea-bread,olive-oil-cobram,20,ml,1 tbsp (Australian)
+chickpea-bread,chickpea-flour,250,ml,"1 cup"
+chickpea-bread,water,250,ml,"1 cup"
+chickpea-bread,olive-oil-cobram,20,ml,"1 tbsp (Australian)"
 ,,,,
 yoghurt-mum,milk-zymil-skim,1000,ml,
 yoghurt-mum,soy-milk-cp,1000,ml,
@@ -19,7 +19,7 @@ blueberry-cake,hemp-flour,20,g,
 blueberry-cake,chickpea-flour,300,g,
 blueberry-cake,egg,180,g,
 blueberry-cake,soy-milky,150,ml,
-blueberry-cake,water,-43,ml,cooked off
+blueberry-cake,water,-43,ml,"cooked off"
 blueberry-cake,olive-oil-cobram,40,ml,
 blueberry-cake,natvia,30,g,
 blueberry-cake,blueberry,200,g,
