@@ -59,9 +59,9 @@ def get_food_details():
     processed_csv = process_csv(food_details_csv, food_details_mappings)
     # add extra columns
     extra_data = {
-            "food_type": "NUTTAB",
+            "food_type": "nuttab",
             "brand": None,
-            "category": "Uncategorised"
+            "category": "uncategorised"
     }
     for row in processed_csv:
         row.update(extra_data)

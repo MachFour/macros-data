@@ -13,15 +13,15 @@ numeric_zero_null = lambda x: (float(x) if x != '0' else None,)
 # returns tuple of (name, variety, extra_desc)
 # from NUTTAB Food Name
 def process_name(food_name: str) -> Tuple[str, str, str]:
-    split = food_name.split(", ")
+    split = food_name.split(",", maxsplit=2)
     if len(split) == 1:
-        name = food_name
+        name = food_name.lower().strip()
         variety = ""
         extra_desc = ""
     else:
-        name = split[0]
-        variety = split[1]
-        extra_desc = ", ".join(split[2:])
+        name = split[0].lower().strip()
+        variety = split[1].strip()
+        extra_desc = split[2].strip() if len(split) > 2 else ""
 
     return (name, variety, extra_desc)
 
