@@ -9,11 +9,6 @@ import itertools
 #		for i in items.values():
 #			csv_writer.writerow(i.data)
 
-# files
-food_details_csv = 'food-details.csv'
-nutrition_details_csv = 'food-nutrients-grams-ml.csv'
-liquids_csv = 'food-nutrients-liquids-only.csv'
-
 def csv_str(x): 
     if type(x) == str:
         return f'"{x}"' if x != "" else ""
@@ -55,8 +50,34 @@ def print_csv(csv, limit=0):
         if n == limit:
             break
 
-def get_food_details():
-    processed_csv = process_csv(food_details_csv, food_details_mappings)
+def fix_nutrition_details_header(csv_file_in: str, csv_file_out: str):
+    with open(csv_file_in, 'rt') as csv_orig:
+        reader = csv.reader(csv_orig, dialect='excel')
+        row_1 = next(reader) # header titles, some blank
+        row_2 = next(reader) # units
+
+        fixed_header_row = []
+        last_column = ""
+        for column, unit in zip(row_1, row_2):
+            if len(column) > 0:
+                last_column = column
+                column_str = column
+            else:
+                column_str = last_column
+            unit_str = f" ({unit})" if len(unit) > 0 else ""
+
+            fixed_header_row.append(column_str + unit_str)
+
+        with open(csv_file_out, 'wt') as csv_fixed:
+            writer = csv.writer(csv_fixed, dialect='excel')
+            writer.writerow(fixed_header_row)
+            # write remaining rows the same
+            writer.writerows((row for row in reader))
+
+
+
+def get_food_details(csv_filename: str):
+    processed_csv = process_csv(csv_filename, food_details_mappings)
     # add extra columns
     extra_data = {
             "food_type": "nuttab",
@@ -65,10 +86,13 @@ def get_food_details():
     }
     for row in processed_csv:
         row.update(extra_data)
+
     return processed_csv
 
-def get_nutrition_details():
-    processed_csv = process_csv(nutrition_details_csv, nutrition_mappings)
+# need to use the csv after modifying by fix_nutrition_details_header
+def get_nutrition_details(csv_filename: str):
+    processed_csv = process_csv(csv_filename, nutrition_mappings)
+
     # add extra columns
     extra_data = {
             "quantity": 100.0,
@@ -78,21 +102,34 @@ def get_nutrition_details():
     }
     for row in processed_csv:
         row.update(extra_data)
+        # correct sugar alcohol
+        row["sugar_alcohol"] -= row["carbohydrate"]
+
     return processed_csv
 
 # returns (unordered) set of NUTTAB IDs of liquid foods
-def get_liquid_foods():
+def get_liquid_foods(liquids_csv: str):
     with open(liquids_csv, 'rt') as f:
         reader = csv.DictReader(f, dialect='excel')
         return set(row['Public Food Key'] for row in reader)
 
 def main():
+    # files
+    liquids_csv = 'liquids-per100ml.csv'
+    food_csv = 'food-details.csv'
+    nutrition_csv_orig = 'foods-per100g-liquids-per100ml.csv'
+    # after header mod
+    nutrition_csv_fixed = 'food-nutrients-fixed.csv'
+
+    # fix up nutrition details header
+    fix_nutrition_details_header(nutrition_csv_orig, nutrition_csv_fixed)
+
     # get liquid foods
-    liquid_foods = get_liquid_foods()
+    liquid_foods = get_liquid_foods(liquids_csv)
     # get nutrition details
-    nut_details_out_csv = get_nutrition_details()
+    nut_details_out_csv = get_nutrition_details(nutrition_csv_fixed)
     # get food details
-    food_details_out_csv = get_food_details()
+    food_details_out_csv = get_food_details(food_csv)
     
     # combine food details with nutrition details, adding values for
     # extra columns energy unit column
