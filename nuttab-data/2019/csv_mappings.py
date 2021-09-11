@@ -1,4 +1,4 @@
-from typing import Mapping, Tuple, Callable
+from typing import Callable
 
 # Mapping data structure (dict)
 # key: Source csv name (string)
@@ -10,9 +10,13 @@ copy = lambda x: (x,)
 numeric = lambda x: (float(x) if x != '' else None,)
 numeric_zero_null = lambda x: (float(x) if x != '0' else None,)
 
+
+CsvMappings = dict[str, tuple[tuple[str, ...], Callable[[str], tuple[str, ...]]]]
+
+
 # returns tuple of (name, variety, extra_desc)
 # from NUTTAB Food Name
-def process_name(food_name: str) -> Tuple[str, str, str]:
+def process_name(food_name: str) -> tuple[str, str, str]:
     split = food_name.split(",", maxsplit=2)
     if len(split) == 1:
         name = food_name.lower().strip()
@@ -25,7 +29,7 @@ def process_name(food_name: str) -> Tuple[str, str, str]:
 
     return (name, variety, extra_desc)
 
-food_details_mappings: Mapping[str, Tuple[Tuple[str, ...], Callable[[str], Tuple[str, ...]]]] = {
+food_details_mappings: CsvMappings = {
     "Public Food Key": (("NUTTAB index",), copy), 
     "Food Profile ID": ((), None), 
     "Derivation": (("data_source",), copy), 
@@ -43,8 +47,16 @@ food_details_mappings: Mapping[str, Tuple[Tuple[str, ...], Callable[[str], Tuple
     "Classification Name": ((), None),
 }
 
+serving_mappings: CsvMappings = {
+    "Public Food Key": (("NUTTAB index",), copy),
+    "Measure description 1": (("name",), copy),
+    "Quantity": (("quantity", ), numeric),
+    "Quantity Unit": (("quantity_unit",), copy),
+    "Measure derivation description": (("notes",), copy)
+}
 
-nutrition_mappings = {
+
+nutrition_mappings: CsvMappings = {
     "Public Food Key": (("NUTTAB index",), copy), 
     "Classification": ((), None), 
     #"Food Name": (("name", "variety", "extra_desc"), process_name), 

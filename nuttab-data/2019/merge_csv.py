@@ -113,6 +113,12 @@ def get_liquid_foods(liquids_csv: str):
         reader = csv.DictReader(f, dialect='excel')
         return set(row['Public Food Key'] for row in reader)
 
+def get_servings(csv_filename: str):
+    processed_csv = process_csv(csv_filename, serving_mappings)
+
+    return processed_csv
+
+
 def main():
     # files
     liquids_csv = 'liquids-per100ml.csv'
@@ -120,6 +126,9 @@ def main():
     nutrition_csv_orig = 'foods-per100g-liquids-per100ml.csv'
     # after header mod
     nutrition_csv_fixed = 'food-nutrients-fixed.csv'
+
+    servings_csv = 'measures.csv'
+
 
     # fix up nutrition details header
     fix_nutrition_details_header(nutrition_csv_orig, nutrition_csv_fixed)
@@ -130,6 +139,8 @@ def main():
     nut_details_out_csv = get_nutrition_details(nutrition_csv_fixed)
     # get food details
     food_details_out_csv = get_food_details(food_csv)
+
+    servings_out_csv = get_servings(servings_csv)
     
     # combine food details with nutrition details, adding values for
     # extra columns energy unit column
@@ -138,6 +149,11 @@ def main():
     for row in food_details_out_csv:
         index = row["NUTTAB index"]
         food_details_by_index[index] = row
+
+    #serving_details_by_index = {}
+    #for row in servings_out_csv:
+    #    index = row["NUTTAB index"]
+    #    serving_details_by_index[index] = row
 
     nut_details_by_index = {}
     for row in nut_details_out_csv:
@@ -157,6 +173,10 @@ def main():
         combined_csv.append(combined_row)
 
     print_csv(combined_csv)
+
+    print("\n\n\n\nSERVINGS\n")
+    
+    print_csv(servings_out_csv)
 
 if __name__ == "__main__":
     main()
