@@ -30,7 +30,7 @@ def process_name(food_name: str) -> tuple[str, str, str]:
     return (name, variety, extra_desc)
 
 food_details_mappings: CsvMappings = {
-    "Public Food Key": (("NUTTAB index",), copy), 
+    "Public Food Key": (("nuttab_index",), copy), 
     "Food Profile ID": ((), None), 
     "Derivation": (("data_source",), copy), 
     #"Name": ((), None), 
@@ -48,7 +48,7 @@ food_details_mappings: CsvMappings = {
 }
 
 serving_mappings: CsvMappings = {
-    "Public Food Key": (("NUTTAB index",), copy),
+    "Public Food Key": (("nuttab_index",), copy),
     "Measure description 1": (("name",), copy),
     "Quantity": (("quantity", ), numeric),
     "Quantity Unit": (("quantity_unit",), copy),
@@ -57,7 +57,7 @@ serving_mappings: CsvMappings = {
 
 
 nutrition_mappings: CsvMappings = {
-    "Public Food Key": (("NUTTAB index",), copy), 
+    "Public Food Key": (("nuttab_index",), copy), 
     "Classification": ((), None), 
     #"Food Name": (("name", "variety", "extra_desc"), process_name), 
     "Food Name": ((), None),

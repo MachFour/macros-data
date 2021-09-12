@@ -1,4 +1,4 @@
-NUTTAB index,name,quantity,quantity_unit,notes
+nuttab_index,name,quantity,quantity_unit,notes
 "F000996","can",375.0,"ml","Assumes 375mL based on FSANZ internet search. Volume multiplied by density to determine the gram amount."
 "F000994","can",375.0,"ml","Assumes 375mL based on FSANZ internet search. Volume multiplied by density to determine the gram amount."
 "F000995","can",375.0,"ml","Assumes 375mL based on FSANZ internet search. Volume multiplied by density to determine the gram amount."

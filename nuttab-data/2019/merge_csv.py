@@ -147,7 +147,7 @@ def main():
     
     food_details_by_index = {}
     for row in food_details_out_csv:
-        index = row["NUTTAB index"]
+        index = row["nuttab_index"]
         food_details_by_index[index] = row
 
     #serving_details_by_index = {}
@@ -157,7 +157,7 @@ def main():
 
     nut_details_by_index = {}
     for row in nut_details_out_csv:
-        index = row["NUTTAB index"]
+        index = row["nuttab_index"]
         nut_details_by_index[index] = row
 
     combined_csv = []
